@@ -1,0 +1,11 @@
+float a = 110;
+float b = 180;
+float gewicht = 0;
+String c = " Met een gewicht van ";
+String d = " kg en een lengte van ";
+String f = "cm is jouw BMI 34";
+gewicht = a/(b*b);
+String e = "";
+e = c + a + d + b + f;
+println(e);
+println(gewicht);
