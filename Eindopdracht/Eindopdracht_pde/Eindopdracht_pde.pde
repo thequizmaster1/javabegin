@@ -28,8 +28,8 @@ void draw() {
 
   noFill();
   if (play) {
-    line(120, 10, 170, 60);
-    line(120, 60, 170, 10);
+    line(130, 10, 170, 60);
+    line(130, 60, 170, 10);
   } else {
     ellipse(150, 35, 50, 50);
   }
@@ -41,7 +41,7 @@ void draw() {
   ellipse(cy, cx, 50, 50 );
 
   fill(0, 0, 0);
-  text("Nu bezig:", 20, 40);
+  
 
   line(100, 300, 400, 300);
   line(100, 200, 400, 200);
@@ -49,7 +49,7 @@ void draw() {
   line(300, 100, 300, 400);
 
   
-  text(x+" , "+y, 400, 40);
+  
 
   
   if ((posx[0]&&posx[1]&&posx[2])||(posx[3]&&posx[4]&&posx[5])||(posx[6]&&posx[7]&&posx[8])||(posx[0]&&posx[3]&&posx[6])||(posx[1]&&posx[4]&&posx[7])||(posx[2]&&posx[5]&&posx[8])||(posx[0]&&posx[4]&&posx[8])||(posx[2]&&posx[4]&&posx[6])) {
